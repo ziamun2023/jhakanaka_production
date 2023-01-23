@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            yellow: "#FECC02",
+            black: "#131313",
+            gray: "#4E4E4E",
+          },
+          fontFamily: {
+            bebas: ["Bebas Neue", "cursive"],
+            montserrat: ["Montserrat", "sans-serif"],
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body>
+<nav class="fixed top-0 left-0 right-0 bg-slate-50" >
+ <div class="flex justify-between  h-20 items-center w-full max-w-5xl mx-auto  ">
+
+     <h1 class="text-2xl">Jhaka naka production </h1>
+     <ul class="flex gap-8 text-lg">
+         <li>
+             home</li>
+             <li>about us</li>
+             <li>contact</li>
+             <li>services</li>
+            </ul>
+ </div>
+</nav>
+<!-- header -->
+<section class="h-screen bg-red-10 pt-20 bg-[url('./images/banner.jpg')] bg-cover bg-center">
+<div class="h-full w-full max-w-5xl mx-auto px-5 flex items-center">
+    <DIV><h2 class="text-white text-lg">MOVIE PRODUCTION HOUSE</h1>
+        <h1 class="text-7xl text-yellow">FILMS MADE TO</h1>
+        <h1 class="text-7xl text-yellow">PERFECTION</h1>
+        <P class="text-white max-w-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ut quisquam exercitationem molestias rerum qui ipsa earum soluta quae omnis.
+        </P>
+    <button class="border border-white border-2 py-2 px-3 text-lg text-white mt-3 hover:bg-yellow hover:text-black hover:border-yellow hover:transition-all ">discover more</button></DIV>
+</div>
+</section>
+
+<!-- about us -->
+<section class="my-40">
+<div class="border-2 border-black max-w-5xl mx-auto ">
+   <div class="md:flex P-5 m-5">
+    <div  class="w-full lg:w-1/2 h-[500px]  bg-[url('./images/camera-man.jpg')] bg-cover bg-center   ">
+
+
+    </div>
+    <div class=" w-full lg:w-1/2  P-5 ml-4 ">
+        <h1 class="my-5"><b>ABOUT US</b></h1>
+        <h1 class="my-5 text-7xl">FILMING EXPERIENCE</h1>
+        <h1 class="my-5"><b>JUST GOT BETTER</b></h1>
+        <P class="MY-10 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam fugit ipsa dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eos animi eum dignissimos?</P>
+        <button class="border border-BLACK border-2 py-2 px-3 text-lg text-BLACK mt-3 hover:bg-yellow hover:text-black hover:border-yellow hover:transition-all my-7 ">discover more</button>
+    </div>
+   </div>
+   <div class="grid md:grid-cols-3 m-5 p-5 gap-3  ">
+    <div class="border border-white shadow-xl" >
+        <div class="w-full bg-black h-1.5"></div>
+   <h1 class="text-6xl text-black">Our vision</h1>
+   <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sint aut nobis tempora fuga.</p>
+    </div>
+    <div   class="border border-white shadow-xl" >
+        <div class="w-full bg-black h-1.5"></div>
+   <h1 class="text-6xl text-black">Our vision</h1>
+   <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sint aut nobis tempora fuga.</p>
+    </div>
+    <div  class="border border-white shadow-xl" >
+        <div class="w-full bg-black h-1.5"></div>
+   <h1 class="text-6xl text-black">Our vision</h1>
+   <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sint aut nobis tempora fuga.</p>
+    </div>  
+</div>
+</div>
+
+
+
+</section>
+<section class="bg-gray py-10">
+    <div class="flex justify-between items-center px-4 w-full max-w-5xl mx-auto"> 
+    <div>
+        <h1 class="text-white">OUR MOVIES</h1>
+        <h1 class="text-4xl text-white">MOVIE COLLECTION</h1>
+
+    </div>
+    <div>
+        <button class="hover:transition-all border text-white border-white hover:bg-orange-300 hover:text-black">see more</button>
+    </div></div>
+    <div class="grid md:grid-cols-4 max-w-5xl mx-auto pt-10">
+       <div class="border overflow-hidden h-5/6 border-white border-2 px-3 mx-auto">
+        <img class="p-5" src="./images/inception.jpg" alt="">
+       </div>
+       <div class="border overflow-hidden h-5/6 border-white border-2 px-3 mx-auto">
+        <img class="p-5" src="./images/interstellar.jpg" alt="">
+       </div>
+       <div class="border overflow-hidden  h-5/6 border-white border-2 px-3 mx-auto">
+        <img class="p-5" src="./images/fractured.jpg" alt="">
+       </div>
+       <div class="border overflow-hidden h-5/6 border-white border-2 px-3 mx-auto">
+        <img class="p-5" src="./images/tenet.jpg" alt="">
+       </div>
+
+    </div>
+</section>
+<section  >
+    <H1 class="text-center"><B>SERVICES</B></H1>
+    <h1 class="text-4xl text-center">WHAT WE OFFER</h1>
+    <div class="grid grid-cols-2 md:grid-cols-4 max-w-5xl mx-auto gap-4 my-10 px-5" >
+        <div class="border-4 border-gray-400 p-5">
+            <div class="flex flex-col justify-center items-center">
+                <img class="w-1/4 h-1/4 p-1 m-2" src="./images/icons/3d-glasss.png" alt="">
+                <h1><b>movies directions</b></h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+        <div class="border-4 border-gray-400 p-5">
+            <div class="flex flex-col justify-center items-center">
+                <img class="w-1/4 h-1/4 p-1 m-2" src="./images/icons/camera.png" alt="">
+                <h1><b>movies directions</b></h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+        <div class="border-4 border-gray-400 p-5">
+            <div class="flex flex-col justify-center items-center">
+                <img class="w-1/4 h-1/4 p-1 m-2" src="./images/icons/count-down.png" alt="">
+                <h1><b>movies directions</b></h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+        <div class="border-4 border-gray-400 p-5 ">
+            <div class="flex flex-col justify-center items-center">
+                <img class="w-1/4 h-1/4 p-1 m-2" src="./images/icons/cut-board.png" alt="">
+                <h1><b>movies directions</b></h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 max-w-5xl mx-auto gap-4 my-10 px-5">
+        <div class="border-4 border-gray-400 p-5">
+            <div class="flex flex-col justify-center items-center">
+                <img class="w-1/4 h-1/4 p-1 m-2" src="./images/icons/film.png" alt="">
+                <h1><b>movies directions</b></h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+        <div class="border-4 border-gray-400 p-5">
+            <div class="flex flex-col justify-center items-center">
+                <img class="w-1/4 h-1/4 p-1 m-2" src="./images/icons/rim.png" alt="">
+                <h1><b>movies directions</b></h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+        <div class="border-4 border-gray-400 p-5">
+            <div class="flex flex-col justify-center items-center">
+                <img class="w-1/4 h-1/4 p-1 m-2" src="./images/icons/theater.png" alt="">
+                <h1><b>movies directions</b></h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+        <div class="border-4 border-gray-400 p-5 ">
+            <div class="flex flex-col justify-center items-center">
+                <img class="w-1/4 h-1/4 p-1 m-2" src="./images/icons/director-chair.png" alt="">
+                <h1><b>movies directions</b></h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+        
+    </div>
+    
+  
+</section>
+
+
+<!-- <section><div class="bg-gray-600">
+
+
+<div class="flex justift-between w-full max-w-5xl">
+    <div >
+        <h1 class="text-white">OUR MOVIES</h1>
+        <h1 class="text-6xl text-white">MOVIE COLLECTION</h1>
+    </div>
+    <div>
+        <button class="border text-white border-white hover:bg-orange-300 hover:text-black">see more</button>
+    </div>
+
+</div>
+</section> -->
+
+</body>
+</html>
